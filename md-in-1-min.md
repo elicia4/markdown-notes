@@ -45,7 +45,19 @@ something bold use **, bold and italic use *** like so:
 - **bold**  
 - ***bold and italic***  
 
-Create a list with '1. 2. 3.' or '1. 1. 1.' like so:
+Create a list with 
+```
+1. 
+2. 
+3.
+```
+or
+```
+1. 
+1. 
+1.
+```
+like so:
 
 1. one
 2. two
