@@ -43,7 +43,7 @@ that with an exclamation mark `![alt text](image path)`:
 
 For explicit line break use \<br\>.  
 To make something italic surround text with `*` or `_`, to make
-something bold use **, bold and italic use *** like so:  
+something bold use `**`, bold and italic use `***` like so:  
 
 - *italic* or _italic_ 
 - **bold**  
@@ -56,7 +56,8 @@ Bulleted lists are done with `-` or `*`:
 * `*`
 * `*`
 
-Create a numbered list with, you don't have to specify the numbers correctly:
+To create a numbered list you don't have to specify the numbers correctly, do
+it like so:
 ```
 1. 
 2. 
@@ -68,7 +69,7 @@ or
 1. 
 1.
 ```
-like so:
+For example:
 
 1. this is `1.`
 1. this is `2.` 
