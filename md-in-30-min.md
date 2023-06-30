@@ -2,14 +2,14 @@
 
 Notes on the video by Faraday Academy: https://youtu.be/bTVIMt3XllM
 
-#### What is Markdown
+### What is Markdown
 ---
 
 Markdown is a simplified markup language that is used for formatting text. It
 gives you a way to format text so that it can be converted to HTML. It was
 originally described as a text-to-HTML formatting tool.
 
-#### Why & Where to use it
+### Why & Where to use it
 ---
 
 Markdown is a lot easier to learn, read and use than HTML. It is one of the 
@@ -36,7 +36,7 @@ admin interface to write your blogs in MD.
 Some forums also utilize MD, such as the freeCodeCamp forum and many other
 development forums. It's also popular in Jamstack. 
 
-#### Basics of Syntax
+### Basics of Syntax
 ---
 
 *This will not cover what is already covered in the [quick
@@ -117,6 +117,6 @@ using either backticks (\`<\`) or `&lt;`, which will render as &lt;.
 
 For unordered lists, `-` is more widely supported than `*`.
 
-#### Advanced cases & libraries
+### Advanced cases & libraries
 ---
 
