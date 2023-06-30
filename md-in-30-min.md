@@ -144,10 +144,11 @@ Some interfaces support checkboxes:
 - [x] task#2
 ```
 
+Renders as:
+
 - [ ] task#1
 - [x] task#2
 
 ### Advanced cases & libraries
 ---
-
 
