@@ -121,8 +121,33 @@ A lot of platform automatically create ids for all headers in your whole
 document based off of the text in the header. What it means is that you can
 easily create links to various parts of your markdown files, for example:
 
-> [this is a link to "What is Markdown"](#what-is-markdown)
+> [this is a link to "What is Markdown"](#what-is-markdown)  
+> [why and where to use it](#why--where-to-use-it)
+
+Created like so:
+
+```
+> [this is a link to "What is Markdown"](#what-is-markdown)  
+> [why and where to use it](#why--where-to-use-it)
+```
+
+The text is of the header is made lowercase, spaces are changed to `-`, thus
+creating the id.
+
+You can mix and match different markdown elements, for example you can turn
+images into links.
+
+Some interfaces support checkboxes:
+
+```
+- [ ] task#1
+- [x] task#2
+```
+
+- [ ] task#1
+- [x] task#2
 
 ### Advanced cases & libraries
 ---
+
 
