@@ -45,18 +45,19 @@ A good way to create a table of contents:
 
 It will be displayed like so:
 
-**Table of Contents:**
+>**Table of Contents:**
 
 You can use `~~` to strike through text:
 
-``~~striken~~`` == ~~striken~~  
+>`~~striken~~` == ~~striken~~
 
 This is useful for lists.  
+
 You can also have italic text in the middle of bold
 text, for example `**There is *italic* text here**`
 renders as:  
 
-**There is *italic* text here**
+>**There is *italic* text here**
 
 You can nest items in lists:
 
