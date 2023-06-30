@@ -21,7 +21,7 @@ Make a paragraph by just typing. If you want to have your sentence on the next
 line use two spaces after the line ` ` ` `  
 like so :)
 
-Use a line break to create a new paragraph (meanining 'press Enter').
+Use a line break to create a new paragraph (meaning 'press Enter').
 
 You can make a codeblock by surrounding something with three back ticks ````
 ``` ```` : 
