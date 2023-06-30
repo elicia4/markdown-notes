@@ -45,7 +45,7 @@ something bold use **, bold and italic use *** like so:
 - **bold**  
 - ***bold and italic***  
 
-Create a list with 
+Create a list with: 
 ```
 1. 
 2. 
@@ -59,12 +59,12 @@ or
 ```
 like so:
 
-1. one
-2. two
-3. three
-1. four
-1. five
-1. six
+1. this is `1.`
+1. this is `2.` 
+1. this is `3.` 
+1. this is `1.`
+1. this is `1.`
+1. this is `1.`
 
 To make a quote use `>`:
 
