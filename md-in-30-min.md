@@ -117,6 +117,12 @@ using either backticks (\`<\`) or `&lt;`, which will render as &lt;.
 
 For unordered lists, `-` is more widely supported than `*`.
 
+A lot of platform automatically create ids for all headers in your whole
+document based off of the text in the header. What it means is that you can
+easily create links to various parts of your markdown files, for example:
+
+> [this is a link to "What is Markdown"](#what-is-markdown)
+
 ### Advanced cases & libraries
 ---
 
