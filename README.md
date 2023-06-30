@@ -1,2 +1,5 @@
-# markdown-notes
-notes on the markdown markup language
+# Markdown Notes
+
+![Markdown Logo](img/markdown.png)
+
+Notes on the Markdown markup language.
