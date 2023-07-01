@@ -23,8 +23,8 @@ like so :)
 
 Use a line break to create a new paragraph (meaning 'press Enter').
 
-You can make a codeblock by surrounding something with three back ticks ````
-``` ```` : 
+You can make a codeblock by surrounding something with three back ticks ``
+``` `` : 
 
 ```
 this is code 
@@ -41,7 +41,7 @@ that with an exclamation mark `![alt text](image path)`:
 
 ![Markdown](img/markdown.png)
 
-For explicit line break use \<br\>.  
+For explicit line break use `<br>`.  
 To make something italic surround text with `*` or `_`, to make
 something bold use `**`, bold and italic use `***` like so:  
 
