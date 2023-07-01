@@ -115,7 +115,7 @@ fames ac turpis egestas maecenas.
 > -- <cite>Bob Ross</cite>
 
 You can quote HTML tags (the problem is with the 'less that sign', or `<`) by
-using either backticks (\`<\`) or `&lt;`, which will render as &lt;.
+using either backticks (`` `<` ``) or `&lt;`, which will render as `<`.
 
 For unordered lists, `-` is more widely supported than `*`.
 
@@ -211,7 +211,7 @@ Happy trees are happy [^1] (press 1)
 
 [^1]: They are indeed
 
-This should link the ^1. This is not a default Markdown feature, it may not be
+This should link the `^1`. This is not a default Markdown feature, it may not be
 present on your platform. This is extended syntax. It works in note-taking
 apps, such as Obsidian.
 
