@@ -103,7 +103,7 @@ You can create multiline quotes, you can also use HTML with MD, for example:
 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada
 fames ac turpis egestas maecenas.
 >
-> -- &lt;cite>Bob Ross&lt/cite>
+> -- <cite>Bob Ross</cite>
 ```
 
 Renders as:
@@ -179,13 +179,13 @@ You can collapse and hide text using a collapsable element. This is another
 case where you have to use HTML.
 
 ```
-&ltdetails>
-    &ltsummary>Collapse me!&ltsummary>
+<details>
+    <summary>Collapse me!&ltsummary>
     Here is some info:
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac
     turpis egestas maecenas.
-&lt/details>
+</details>
 ```
 
 Renders as:
@@ -198,7 +198,7 @@ Renders as:
     turpis egestas maecenas.
 </details>
 <br>
-One other interesting thing that is interesting is foot notes.
+One other interesting thing that is interesting is foot notes:
 
 ```
 Happy trees are happy [^1] (press 1)
