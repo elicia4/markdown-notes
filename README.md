@@ -2,4 +2,5 @@
 
 ![Markdown Logo](img/markdown.png)
 
-Notes on the Markdown markup language.
+- [Quick Guide](md-in-1-min.md)
+- [Bigger Guide :)](md-in-30-min.md)
