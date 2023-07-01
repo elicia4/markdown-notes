@@ -152,3 +152,76 @@ Renders as:
 ### Advanced cases & libraries
 ---
 
+You can create tables. For example:
+
+```
+| Name | Current State | Next State |
+| :------- | :-------: | -------: | < these are dividers. 
+| Green | Green | Yellow |
+| Red | Red | Yellow |
+
+```
+
+This will render like so:
+
+| Name | Current State | Next State |
+| :------- | :-------: | -------: | 
+| Green | Green | Yellow |
+| Red | Red | Yellow |  
+
+You can prepend or append these dividers with a colon. A colon before means 
+that the text will allign to the left, a color after means that the text will
+align to the right, on both ends means that it will be centered.
+
+You can collapse and hide text using a collapsable element. This is another
+case where you have to use HTML.
+
+```
+&ltdetails>
+    &ltsummary>Collapse me!&ltsummary>
+    Here is some info:
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac
+    turpis egestas maecenas.
+&lt/details>
+```
+
+Renders as:
+
+<details>
+    <summary>Collapse me!</summary>
+    Here is some info:
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac
+    turpis egestas maecenas.
+</details>
+<br>
+One other interesting thing that is interesting is foot notes.
+
+Happy trees are happy [^1]
+
+[^1]: They are indeed
+
+This should link the ^1. This is not a default Markdown feature, it may not be
+present on your platform. This is extended syntax. It works in note-taking
+apps, such as Obsidian.
+
+### Cheery on top things
+---
+
+- Markdown has emoji support 😎
+- Supports typesetting with LaTeX (for formulas and stuff)
+- There are many plugins in the Markdown ecosystem (e.g. Mermaid lets you
+create diagrams with text and code)
+
+
+### Conclusions
+---
+
+There are many markup languages, Python uses RST, many Python projects use RST
+files. Some documentation can be auto-generated into those files. There is also
+MediaWiki, a markup language for Wikipedia. If you learn Markdown, the concepts
+will be similiar to many other types of markup. People write entire books just
+by using Markdown. There are tools created for people who write books in
+Markdown. MD is quite easy to pick up and is used in a large variety of places,
+you should learn it!
