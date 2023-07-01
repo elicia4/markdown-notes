@@ -200,7 +200,14 @@ Renders as:
 <br>
 One other interesting thing that is interesting is foot notes.
 
-Happy trees are happy [^1]
+```
+Happy trees are happy [^1] (press 1)
+
+[^1]: They are indeed
+```
+Will render as: 
+
+Happy trees are happy [^1] (press 1)
 
 [^1]: They are indeed
 
