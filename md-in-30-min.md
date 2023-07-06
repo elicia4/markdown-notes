@@ -161,7 +161,6 @@ You can create tables. For example:
 | :------- | :-------: | -------: | < these are dividers. 
 | Green | Green | Yellow |
 | Red | Red | Yellow |
-
 ```
 
 This will render like so:
