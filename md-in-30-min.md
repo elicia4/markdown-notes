@@ -98,7 +98,7 @@ A thin horizontal line is also added under the H1 header on many platforms.
 
 You can create multiline quotes, you can also use HTML with MD, for example:
 
-```
+```md
 >Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada
 fames ac turpis egestas maecenas.
@@ -128,7 +128,7 @@ easily create links to various parts of your markdown files, for example:
 
 Created like so:
 
-```
+```md
 > [this is a link to "What is Markdown"](#what-is-markdown)  
 > [why and where to use it](#why--where-to-use-it)
 ```
@@ -141,7 +141,7 @@ images into links.
 
 Some interfaces support checkboxes:
 
-```
+```md
 - [ ] task#1
 - [x] task#2
 ```
@@ -156,7 +156,7 @@ Renders as:
 
 You can create tables. For example:
 
-```
+```md
 | Name | Current State | Next State |
 | :------- | :-------: | -------: | < these are dividers. 
 | Green | Green | Yellow |
@@ -177,7 +177,7 @@ align to the right, on both ends means that it will be centered.
 You can collapse and hide text using a collapsable element. This is another
 case where you have to use HTML.
 
-```
+```html
 <details>
     <summary>Collapse me!&ltsummary>
     Here is some info:
@@ -199,7 +199,7 @@ Renders as:
 <br>
 One other interesting thing that is interesting is foot notes:
 
-```
+```md
 Happy trees are happy [^1] (press 1)
 
 [^1]: They are indeed
